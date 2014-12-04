@@ -1,0 +1,24 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="269dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="35dp"
+        android:layout_x="20dp"
+        android:layout_y="231dp" />
+	<com.skplanetx.tmapopenmapapi.ui.MyCameraSurface
+	    android:id="@+id/preview2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentLeft="true" />
+
+  
+</AbsoluteLayout>
